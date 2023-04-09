@@ -1,0 +1,62 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SpringBoot",
+		"_postman_id": "83393e21-159d-d9c9-de89-3aad000ffc6c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "springboot-Bookapi",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCategory",
+			"request": {
+				"url": "http://localhost:9090/category",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"category\":\"History\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateBook",
+			"request": {
+				"url": "http://localhost:9090/category",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"category\":\"History\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
